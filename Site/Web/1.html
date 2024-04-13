@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <div id="player1" class="player">
+            <h2>Player 1</h2>
+            <div class="army" id="army1">Army Strength: <span id="strength1">100</span></div>
+            <button onclick="attack(1)">Attack</button>
+        </div>
+        <div id="player2" class="player">
+            <h2>Player 2</h2>
+            <div class="army" id="army2">Army Strength: <span id="strength2">100</span></div>
+            <button onclick="attack(2)">Attack</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
